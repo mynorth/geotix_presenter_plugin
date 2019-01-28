@@ -1,0 +1,106 @@
+$mdc-theme-primary: #5488b2;
+$mdc-theme-secondary: #E58D36;
+$mdc-theme-background: #F2F5F7; // #fff;
+
+$v-theme-error-message: #d50000;
+
+$v-header-background: #2D307A; // #263138;
+$v-header-color: #FFF; // #839098;
+
+$v-drawer-background: #FFF; // #37424a;
+$v-drawer-color: #90A4AE; // #71818c;
+
+$v-title-background: #C5CAE9; // #EBF0F4;
+$v-title-color: $v-header-background; // $v-drawer-color;
+
+
+// Font size variables for size and naming
+// consistency with default Material sizes
+// See @material/typography
+$mdc-headline1-font-size: 6rem;      // 96sp
+$mdc-headline2-font-size: 3.75rem;   // 60sp
+$mdc-headline3-font-size: 3rem;      // 48px
+$mdc-headline4-font-size: 2.125rem;  // 34sp
+$mdc-headline5-font-size: 1.5rem;    // 24sp
+$mdc-headline6-font-size: 1.25rem;   // 20sp
+$mdc-subtitle1-font-size: 1rem;      // 16sp
+$mdc-subtitle2-font-size: .875rem;   // 14sp
+$mdc-body1-font-size:     1rem;      // 16sp
+$mdc-body2-font-size:     .875rem;   // 14sp
+$mdc-caption-font-size:   .75rem;    // 12sp
+$mdc-button-font-size:    .875rem;   // 14sp
+$mdc-overline-font-size:  .75rem;    // 12sp
+
+// Variables for matching Material blue-gray-orange theme
+$v-input-border-radius: 4px;
+$v-input-border-color: rgba(0, 0, 0, 0.24);
+$v-input-hover-border-color: rgba(0, 0, 0, 0.87);
+$v-input-focus-border-color: $mdc-theme-primary;
+
+.mdl-layout__header {
+  background-color: $v-title-background;
+  .mdl-layout__header-row {
+    background-color: $v-header-background;
+    color: $v-header-color;
+  }
+  .mdl-layout__drawer-button {
+    background-color: $v-drawer-background;
+  }
+}
+
+h1.v-page-title {
+  background-color: $v-title-background;
+  color: $v-title-color;
+  margin: 0px;
+  padding: 18px;
+  font-size: $mdc-headline6-font-size;
+  font-weight: 500
+  i {
+    font-size: $mdc-headline6-font-size;
+    vertical-align: middle;
+  }
+}
+
+.mdl-layout__content {
+  background-color: $mdc-theme-background;
+}
+
+#cart_menu {
+  position: relative;
+  .mdl-badge {
+    position: absolute;
+    left: 30px;
+    top: 8px;
+    z-index: 9;
+  }
+  .v-menu-click {
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    .material-icons {
+      transform: translate(-19px, -19px);
+      font-size: 38px;
+      line-height: 38px;
+      width: 38px;
+    }
+  }
+}
+
+.mdl-layout__drawer {
+  background-color: $v-drawer-background;
+  border-right: 1px solid $v-drawer-background;
+  color: $v-drawer-color;
+  .mdl-navigation {
+    .mdl-navigation__link {
+      color: $v-drawer-color;
+      &.v-menu-item__selected {
+        color: lighten($v-drawer-color, 20%);
+        font-weight: bold;
+      }
+      &:hover {
+        background-color: $v-drawer-background;
+        color: lighten($v-drawer-color, 20%);
+      }
+    }
+  }
+}
