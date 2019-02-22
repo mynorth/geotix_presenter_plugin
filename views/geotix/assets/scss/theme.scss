@@ -1,6 +1,10 @@
 $mdc-theme-primary: #5488b2;
-$mdc-theme-secondary: #E58D36;
+$mdc-theme-secondary: #C6FF00;
 $mdc-theme-background: #F2F5F7; // #fff;
+
+.mdc-fab {
+    background-color: $mdc-theme-secondary;
+}
 
 $v-theme-error-message: #d50000;
 
