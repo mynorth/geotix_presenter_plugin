@@ -1,1 +1,41 @@
-@import "theme";
+@import "mdc-theme";
+
+@import "components/grid";
+
+@import "@material/button/mdc-button";
+@import "@material/card/mdc-card";
+@import "@material/checkbox/mdc-checkbox";
+@import "@material/chips/mdc-chips";
+@import "@material/dialog/mdc-dialog";
+@import "@material/fab/mdc-fab";
+@import "@material/icon-toggle/mdc-icon-toggle";
+@import "@material/list/mdc-list";
+@import "@material/drawer/mdc-drawer";
+@import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/theme/mixins";
+@import "@material/menu-surface/mdc-menu-surface";
+@import "@material/menu/mdc-menu";
+@import "@material/form-field/mdc-form-field";
+@import "@material/radio/mdc-radio";
+@import "@material/select/mdc-select";
+@import "@material/slider/mdc-slider";
+@import "@material/snackbar/mdc-snackbar";
+@import "@material/switch/mdc-switch";
+@import "@material/tab-bar/mdc-tab-bar";
+@import "@material/tab-scroller/mdc-tab-scroller";
+@import "@material/tab-indicator/mdc-tab-indicator";
+@import "@material/tab/mdc-tab";
+@import "@material/textfield/mdc-text-field";
+@import "@material/notched-outline/mdc-notched-outline";
+@import "@material/typography/mdc-typography";
+@import "v-theme";
+
+.mdc-fab {
+    background-color: $palette-accent14;
+    color: $palette-neutral10;
+}
+
+:not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::before, :not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::after {
+    background-color: $palette-accent4;
+}
+

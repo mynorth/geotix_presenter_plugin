@@ -1,0 +1,66 @@
+@import "@material/layout-grid/mdc-layout-grid";
+
+.v-column--relative {
+  position: relative;
+}
+
+// Used to support side to side scrolling for wide grid elements.
+// Grids that contain a wide table use this.
+.v-grid__wide {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@each $size in map-keys($mdc-layout-grid-columns) {
+  @include mdc-layout-grid-media-query_($size) {
+    $gutter: map-get($mdc-layout-grid-default-gutter, $size);
+
+    $tops: (
+            top: $gutter,
+            top0: 0
+    );
+
+    $rights: (
+            right: $gutter,
+            right0: 0
+    );
+
+    $bottoms: (
+            bottom: $gutter,
+            bottom0: 0
+    );
+
+    $lefts: (
+            left: $gutter,
+            left0: 0
+    );
+
+    @each $top, $tsize in $tops {
+      @each $right, $rsize in $rights {
+        @each $bottom, $bsize in $bottoms {
+          @each $left, $lsize in $lefts {
+            .v-grid__padding-#{$bottom}-#{$left}-#{$right}-#{$top} {
+              padding: $tsize $rsize $bsize $lsize;
+            }
+          }
+        }
+      }
+    }
+
+    @each $top, $tsize in $tops {
+          @each $right, $rsize in $rights {
+            @each $bottom, $bsize in $bottoms {
+              @each $left, $lsize in $lefts {
+                .v-col__padding-#{$bottom}-#{$left}-#{$right}-#{$top} {
+                  padding: $tsize/2 $rsize/2 $bsize/2 $lsize/2;
+                }
+              }
+            }
+          }
+        }
+  }
+}
