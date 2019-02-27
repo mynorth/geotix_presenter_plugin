@@ -1,8 +1,10 @@
 @import "mdc-theme";
 
 @import "components/grid";
+@import "components/drawer";
+@import "components/card";
+@import "components/button";
 
-@import "@material/button/mdc-button";
 @import "@material/card/mdc-card";
 @import "@material/checkbox/mdc-checkbox";
 @import "@material/chips/mdc-chips";
@@ -10,7 +12,6 @@
 @import "@material/fab/mdc-fab";
 @import "@material/icon-toggle/mdc-icon-toggle";
 @import "@material/list/mdc-list";
-@import "@material/drawer/mdc-drawer";
 @import "@material/top-app-bar/mdc-top-app-bar";
 @import "@material/theme/mixins";
 @import "@material/menu-surface/mdc-menu-surface";
