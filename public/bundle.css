@@ -972,6 +972,10 @@
     transition-duration: 200ms;
     opacity: 0; }
 
+.drawer-frame-root {
+  height: auto;
+  position: absolute; }
+
 .mdc-drawer--modal {
   --v-drawer-active:yes; }
   @media (min-width: 992px) {
