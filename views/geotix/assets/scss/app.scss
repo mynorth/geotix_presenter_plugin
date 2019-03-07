@@ -40,3 +40,15 @@
     background-color: $palette-accent4;
 }
 
+.mdc-top-app-bar {
+    background-color: $palette-primary10;
+    color: white;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 4;
+}
+
