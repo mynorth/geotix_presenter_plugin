@@ -3,6 +3,11 @@
 @import "@material/drawer/mdc-drawer";
 @import '../media';
 
+.drawer-frame-root {
+  height: auto;
+  position: absolute;
+}
+
 .mdc-drawer--modal {
   --v-drawer-active:yes;
   @include lg {
