@@ -974,6 +974,7 @@
 
 .drawer-frame-root {
   height: auto;
+  min-height: 100%;
   position: absolute; }
 
 .mdc-drawer--modal {
