@@ -726,6 +726,10 @@
   .v-col__padding-bottom0-left0-right0-top0 {
     padding: 0 0 0 0; } }
 
+.v-grid-column-align-right {
+  margin-right: 0;
+  margin-left: auto; }
+
 .mdc-drawer {
   border-color: rgba(0, 0, 0, 0.12);
   background-color: #fff;
@@ -1222,7 +1226,7 @@
   position: relative; }
 
 .v-card-content {
-  padding: 18px 18px; }
+  padding: 10px 10px; }
 
 .v-card-title {
   padding: 10px 10px 0px 10px; }
