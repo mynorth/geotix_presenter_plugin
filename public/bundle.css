@@ -2060,6 +2060,16 @@ a.mdc-list-item {
 .mdc-list-item__meta {
   display: block; }
 
+.mdl-stepper {
+  background-color: unset; }
+
+.mdl-step.is-active .mdl-step__label-indicator {
+  background-color: #0288D1;
+  color: white; }
+
+.mdl-step--completed .mdl-step__label-indicator {
+  background-color: #0288D1; }
+
 .mdc-card {
   background-color: #fff;
   /* @alternate */
@@ -6959,6 +6969,10 @@ body {
 
 a {
   color: #29B6F6; }
+
+.mdc-chip {
+  background-color: #0288D1;
+  color: white; }
 
 .mdc-fab {
   background-color: #AEEA00;
