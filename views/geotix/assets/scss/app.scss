@@ -32,6 +32,7 @@
 @import "@material/typography/mdc-typography";
 @import "@material/linear-progress/mdc-linear-progress";
 @import "v-theme";
+@import "breadcrumbs";
 
 .mdc-fab {
     background-color: $palette-accent14;

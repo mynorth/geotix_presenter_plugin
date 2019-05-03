@@ -6957,6 +6957,16 @@ body {
 a {
   color: #29B6F6; }
 
+#breadcrumbs {
+  background-color: white;
+  padding: 2px 0 2px 16px;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 1px 0px rgba(0, 0, 0, 0.14), 0px 0px 3px 0px rgba(0, 0, 0, 0.12); }
+  #breadcrumbs i {
+    font-size: 1.125rem; }
+
+#chevron {
+  font-size: 1.0rem; }
+
 .mdc-fab {
   background-color: #AEEA00;
   color: #263238; }
