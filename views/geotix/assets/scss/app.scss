@@ -5,6 +5,7 @@
 @import "components/card";
 @import "components/button";
 @import "components/list";
+@import "components/stepper";
 
 @import "@material/card/mdc-card";
 @import "@material/checkbox/mdc-checkbox";
@@ -33,6 +34,9 @@
 @import "@material/linear-progress/mdc-linear-progress";
 @import "v-theme";
 @import "breadcrumbs";
+
+@import "components/chip";
+
 
 .mdc-fab {
     background-color: $palette-accent14;

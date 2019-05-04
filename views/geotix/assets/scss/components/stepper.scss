@@ -1,0 +1,12 @@
+.mdl-stepper {
+  background-color: unset;
+}
+
+.mdl-step.is-active .mdl-step__label-indicator {
+  background-color: $mdc-theme-secondary;
+  color: white;
+}
+
+.mdl-step--completed .mdl-step__label-indicator {
+  background-color: $mdc-theme-secondary;
+}

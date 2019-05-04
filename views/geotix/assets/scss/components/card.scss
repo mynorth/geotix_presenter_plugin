@@ -54,3 +54,9 @@
   margin-left: 10px;
   position: relative;
 }
+
+.v-card-content {
+  .mdc-menu-anchor > button {
+    z-index: 7;
+  }
+}
