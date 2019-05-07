@@ -1269,6 +1269,9 @@
   margin-left: 10px;
   position: relative; }
 
+.v-card-content .mdc-menu-anchor > button {
+  z-index: 7; }
+
 @keyframes mdc-ripple-fg-radius-in {
   from {
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -2056,6 +2059,16 @@ a.mdc-list-item {
 
 .mdc-list-item__meta {
   display: block; }
+
+.mdl-stepper {
+  background-color: unset; }
+
+.mdl-step.is-active .mdl-step__label-indicator {
+  background-color: #0288D1;
+  color: white; }
+
+.mdl-step--completed .mdl-step__label-indicator {
+  background-color: #0288D1; }
 
 .mdc-card {
   background-color: #fff;
@@ -6966,6 +6979,10 @@ a {
 
 #chevron {
   font-size: 1.0rem; }
+
+.mdc-chip {
+  background-color: #0288D1;
+  color: white; }
 
 .mdc-fab {
   background-color: #AEEA00;
