@@ -10,3 +10,14 @@
 .mdl-step--completed .mdl-step__label-indicator {
   background-color: $mdc-theme-secondary;
 }
+
+.v-step__actions [data-stepper-next] {
+  background-color: $mdc-theme-primary;
+  color: white;
+}
+
+.v-step--horizontal  > .v-step__actions [data-stepper-next] {
+  color: white;
+  background-color: $mdc-theme-primary;
+}
+

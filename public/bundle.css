@@ -2070,6 +2070,14 @@ a.mdc-list-item {
 .mdl-step--completed .mdl-step__label-indicator {
   background-color: #0288D1; }
 
+.v-step__actions [data-stepper-next] {
+  background-color: #3F51B5;
+  color: white; }
+
+.v-step--horizontal > .v-step__actions [data-stepper-next] {
+  color: white;
+  background-color: #3F51B5; }
+
 .mdc-card {
   background-color: #fff;
   /* @alternate */
