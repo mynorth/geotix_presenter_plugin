@@ -1,7 +1,18 @@
+$breadcrumbs-height: 40px;
+
 #breadcrumbs {
   background-color: white;
   padding: 2px 0 2px 16px;
-  i {font-size: 1.125rem;}
-  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 1px 0px rgba(0, 0, 0, 0.14), 0px 0px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 1px 0px rgba(0, 0, 0, 0.14),
+    0px 0px 3px 0px rgba(0, 0, 0, 0.12);
+  max-height: $breadcrumbs-height;
+
+  i {
+    font-size: 1.125rem;
+  }
 }
-#chevron { font-size: 1.0rem;}
+
+#chevron {
+  font-size: 1.0rem;
+}
