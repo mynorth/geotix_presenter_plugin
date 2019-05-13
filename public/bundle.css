@@ -991,12 +991,6 @@
     transition-duration: 200ms;
     opacity: 0; }
 
-.drawer-frame-root {
-  height: auto;
-  min-height: 100%;
-  width: 100%;
-  position: absolute; }
-
 .mdc-drawer--modal {
   --v-drawer-active:yes; }
   @media (min-width: 992px) {
@@ -6945,9 +6939,10 @@ h1.v-page-title {
   margin: 0px;
   padding: 18px;
   font-size: 1.25rem;
-  font-weight: 500 i;
-    font-weight-font-size: 1.25rem;
-    font-weight-vertical-align: middle; }
+  font-weight: 500; }
+  h1.v-page-title i {
+    font-size: 1.25rem;
+    vertical-align: middle; }
 
 .v-page-content {
   background-color: #F2F5F7; }
@@ -6969,9 +6964,6 @@ h1.v-page-title {
       line-height: 38px;
       width: 38px; }
 
-.mdc-top-app-bar {
-  position: relative; }
-
 body {
   background-color: #F2F5F7; }
 
@@ -6981,7 +6973,8 @@ a {
 #breadcrumbs {
   background-color: white;
   padding: 2px 0 2px 16px;
-  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 1px 0px rgba(0, 0, 0, 0.14), 0px 0px 3px 0px rgba(0, 0, 0, 0.12); }
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 1px 0px rgba(0, 0, 0, 0.14), 0px 0px 3px 0px rgba(0, 0, 0, 0.12);
+  max-height: 40px; }
   #breadcrumbs i {
     font-size: 1.125rem; }
 
@@ -7008,3 +7001,28 @@ a {
   box-sizing: border-box;
   width: 100%;
   z-index: 4; }
+
+.drawer-top-app-bar {
+  position: absolute; }
+
+.drawer-frame-root {
+  display: flex;
+  height: 100vh; }
+
+.drawer-main-content {
+  overflow: auto;
+  height: calc(100vh - 64px - 40px);
+  margin-top: 104px; }
+
+#breadcrumbs {
+  position: fixed;
+  width: 100%;
+  top: 64px;
+  z-index: 1; }
+
+@media (max-width: 599px) {
+  #breadcrumbs {
+    top: 56px; } }
+
+.mdc-drawer-app-content {
+  width: 100vw; }

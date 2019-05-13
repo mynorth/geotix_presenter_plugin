@@ -37,7 +37,7 @@ h1.v-page-title {
   margin: 0px;
   padding: 18px;
   font-size: $mdc-headline6-font-size;
-  font-weight: 500
+  font-weight: 500;
   i {
     font-size: $mdc-headline6-font-size;
     vertical-align: middle;
@@ -67,12 +67,6 @@ h1.v-page-title {
       width: 38px;
     }
   }
-}
-
-
-.mdc-top-app-bar {
-  position: relative;
-
 }
 
 body {
