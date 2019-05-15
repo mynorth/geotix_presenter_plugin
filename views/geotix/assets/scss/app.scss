@@ -39,23 +39,17 @@
 
 
 .mdc-fab {
-    background-color: $palette-accent14;
-    color: $palette-neutral10;
+  background-color: $palette-accent14;
+  color: $palette-neutral10;
 }
 
 :not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::before, :not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::after {
-    background-color: $palette-accent4;
+  background-color: $palette-accent4;
 }
 
 .mdc-top-app-bar {
-    background-color: $palette-primary10;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-    width: 100%;
-    z-index: 4;
+  background-color: $palette-primary10;
+  color: white;
 }
 
 .drawer-top-app-bar {
