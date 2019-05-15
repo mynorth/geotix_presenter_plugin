@@ -36,6 +36,7 @@
 @import "breadcrumbs";
 
 @import "components/chip";
+@import "behaviors/fixed-nav-elements";
 
 
 .mdc-fab {
@@ -43,43 +44,12 @@
   color: $palette-neutral10;
 }
 
-:not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::before, :not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::after {
+:not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::before,
+:not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::after {
   background-color: $palette-accent4;
 }
 
 .mdc-top-app-bar {
   background-color: $palette-primary10;
   color: white;
-}
-
-.drawer-top-app-bar {
-  position: absolute;
-}
-
-.drawer-frame-root {
-  display: flex;
-  height: 100vh;
-}
-
-.drawer-main-content {
-  overflow: auto;
-  height: calc(100vh - #{$mdc-top-app-bar-row-height} - #{$breadcrumbs-height});
-  margin-top: $mdc-top-app-bar-row-height + $breadcrumbs-height;
-}
-
-#breadcrumbs {
-  position: fixed;
-  width: 100%;
-  top: $mdc-top-app-bar-row-height;
-  z-index: 1;
-}
-
-@media (max-width: $mdc-top-app-bar-mobile-breakpoint) {
-  #breadcrumbs {
-    top: $mdc-top-app-bar-mobile-row-height;
-  }
-}
-
-.mdc-drawer-app-content {
-  width: 100vw;
 }

@@ -1,0 +1,41 @@
+.mdc-drawer-app-content {
+  width: 100vw;
+}
+
+// Despite the class name, this should remain `sticky` to ensure it still
+// occupies space in the document.
+.v-header.v-header--fixed {
+  position: -webkit-sticky; // Required only for Safari. Thanks, Safari.
+  position: sticky;
+  top: 0;
+}
+
+.drawer-frame-root {
+  display: flex;
+  height: 100vh;
+}
+
+// No header -> full height:
+.drawer-main-content {
+  overflow: auto;
+  height: 100vh;
+}
+
+// Header present -> full height - header height:
+.v-root--header-present .drawer-main-content {
+  height: calc(100vh - #{$mdc-top-app-bar-row-height});
+}
+
+#breadcrumbs {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2; // Above FABs, below dialog scrim.
+}
+
+@media (max-width: $mdc-top-app-bar-mobile-breakpoint) {
+  // Header present -> full height - mobile header height:
+  .v-root--header-present .drawer-main-content {
+    height: calc(100vh - #{$mdc-top-app-bar-mobile-row-height});
+  }
+}
