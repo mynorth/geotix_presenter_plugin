@@ -6487,6 +6487,208 @@ a.mdc-list-item {
   100% {
     transform: translateX(calc(0 - 0%)) translateY(-130%) scale(0.75); } }
 
+.mdc-typography {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; }
+
+.mdc-typography--headline1 {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 6rem;
+  line-height: 6rem;
+  font-weight: 300;
+  letter-spacing: -0.01562em;
+  text-decoration: inherit;
+  text-transform: inherit; }
+
+.mdc-typography--headline2 {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 3.75rem;
+  line-height: 3.75rem;
+  font-weight: 300;
+  letter-spacing: -0.00833em;
+  text-decoration: inherit;
+  text-transform: inherit; }
+
+.mdc-typography--headline3 {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 3rem;
+  line-height: 3.125rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-decoration: inherit;
+  text-transform: inherit; }
+
+.mdc-typography--headline4 {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2.125rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 0.00735em;
+  text-decoration: inherit;
+  text-transform: inherit; }
+
+.mdc-typography--headline5 {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-decoration: inherit;
+  text-transform: inherit; }
+
+.mdc-typography--headline6 {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.0125em;
+  text-decoration: inherit;
+  text-transform: inherit; }
+
+.mdc-typography--subtitle1 {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  letter-spacing: 0.00937em;
+  text-decoration: inherit;
+  text-transform: inherit; }
+
+.mdc-typography--subtitle2 {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+  letter-spacing: 0.00714em;
+  text-decoration: inherit;
+  text-transform: inherit; }
+
+.mdc-typography--body1 {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.03125em;
+  text-decoration: inherit;
+  text-transform: inherit; }
+
+.mdc-typography--body2 {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.01786em;
+  text-decoration: inherit;
+  text-transform: inherit; }
+
+.mdc-typography--caption {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.03333em;
+  text-decoration: inherit;
+  text-transform: inherit; }
+
+.mdc-typography--button {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 0.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  letter-spacing: 0.08929em;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.mdc-typography--overline {
+  font-family: Roboto, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 0.75rem;
+  line-height: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.16667em;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.mdc-typography--headline6 {
+  color: #37474F; }
+
+.mdc-typography--subtitle1 {
+  color: #78909C; }
+
+h1.v-page-title {
+  background-color: #C5CAE9;
+  color: #1A237E;
+  margin: 0px;
+  padding: 18px;
+  font-size: 1.25rem;
+  font-weight: 500; }
+  h1.v-page-title i {
+    font-size: 1.25rem;
+    vertical-align: middle; }
+
+.v-page-content {
+  background-color: #F2F5F7; }
+
+#cart_menu {
+  position: relative; }
+  #cart_menu .mdl-badge {
+    position: absolute;
+    left: 30px;
+    top: 8px;
+    z-index: 9; }
+  #cart_menu .v-menu-click {
+    font-size: 35px;
+    width: 50px;
+    height: 50px; }
+    #cart_menu .v-menu-click .material-icons {
+      transform: translate(-19px, -19px);
+      font-size: 38px;
+      line-height: 38px;
+      width: 38px; }
+
+body {
+  background-color: #F2F5F7; }
+
+a {
+  color: #29B6F6; }
+
+#breadcrumbs {
+  background-color: white;
+  padding: 2px 0 2px 16px;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 1px 0px rgba(0, 0, 0, 0.14), 0px 0px 3px 0px rgba(0, 0, 0, 0.12);
+  max-height: 40px; }
+  #breadcrumbs i {
+    font-size: 1.125rem; }
+
+#chevron {
+  font-size: 1.0rem; }
+
 .mdc-top-app-bar {
   background-color: #3F51B5;
   /* @alternate */
@@ -6783,236 +6985,18 @@ a.mdc-list-item {
   .mdc-top-app-bar--fixed-adjust {
     padding-top: 56px; } }
 
-.mdc-typography {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased; }
-
-.mdc-typography--headline1 {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 6rem;
-  line-height: 6rem;
-  font-weight: 300;
-  letter-spacing: -0.01562em;
-  text-decoration: inherit;
-  text-transform: inherit; }
-
-.mdc-typography--headline2 {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 3.75rem;
-  line-height: 3.75rem;
-  font-weight: 300;
-  letter-spacing: -0.00833em;
-  text-decoration: inherit;
-  text-transform: inherit; }
-
-.mdc-typography--headline3 {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 3rem;
-  line-height: 3.125rem;
-  font-weight: 400;
-  letter-spacing: normal;
-  text-decoration: inherit;
-  text-transform: inherit; }
-
-.mdc-typography--headline4 {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 2.125rem;
-  line-height: 2.5rem;
-  font-weight: 400;
-  letter-spacing: 0.00735em;
-  text-decoration: inherit;
-  text-transform: inherit; }
-
-.mdc-typography--headline5 {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  font-weight: 400;
-  letter-spacing: normal;
-  text-decoration: inherit;
-  text-transform: inherit; }
-
-.mdc-typography--headline6 {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 1.25rem;
-  line-height: 2rem;
-  font-weight: 500;
-  letter-spacing: 0.0125em;
-  text-decoration: inherit;
-  text-transform: inherit; }
-
-.mdc-typography--subtitle1 {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 1rem;
-  line-height: 1.75rem;
-  font-weight: 400;
-  letter-spacing: 0.00937em;
-  text-decoration: inherit;
-  text-transform: inherit; }
-
-.mdc-typography--subtitle2 {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 0.875rem;
-  line-height: 1.375rem;
-  font-weight: 500;
-  letter-spacing: 0.00714em;
-  text-decoration: inherit;
-  text-transform: inherit; }
-
-.mdc-typography--body1 {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-weight: 400;
-  letter-spacing: 0.03125em;
-  text-decoration: inherit;
-  text-transform: inherit; }
-
-.mdc-typography--body2 {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 400;
-  letter-spacing: 0.01786em;
-  text-decoration: inherit;
-  text-transform: inherit; }
-
-.mdc-typography--caption {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 0.75rem;
-  line-height: 1.25rem;
-  font-weight: 400;
-  letter-spacing: 0.03333em;
-  text-decoration: inherit;
-  text-transform: inherit; }
-
-.mdc-typography--button {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 0.875rem;
-  line-height: 2.25rem;
-  font-weight: 500;
-  letter-spacing: 0.08929em;
-  text-decoration: none;
-  text-transform: uppercase; }
-
-.mdc-typography--overline {
-  font-family: Roboto, sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-size: 0.75rem;
-  line-height: 2rem;
-  font-weight: 500;
-  letter-spacing: 0.16667em;
-  text-decoration: none;
-  text-transform: uppercase; }
-
-.mdc-typography--headline6 {
-  color: #37474F; }
-
-.mdc-typography--subtitle1 {
-  color: #78909C; }
-
-h1.v-page-title {
-  background-color: #C5CAE9;
-  color: #1A237E;
-  margin: 0px;
-  padding: 18px;
-  font-size: 1.25rem;
-  font-weight: 500; }
-  h1.v-page-title i {
-    font-size: 1.25rem;
-    vertical-align: middle; }
-
-.v-page-content {
-  background-color: #F2F5F7; }
-
-#cart_menu {
-  position: relative; }
-  #cart_menu .mdl-badge {
-    position: absolute;
-    left: 30px;
-    top: 8px;
-    z-index: 9; }
-  #cart_menu .v-menu-click {
-    font-size: 35px;
-    width: 50px;
-    height: 50px; }
-    #cart_menu .v-menu-click .material-icons {
-      transform: translate(-19px, -19px);
-      font-size: 38px;
-      line-height: 38px;
-      width: 38px; }
-
-body {
-  background-color: #F2F5F7; }
-
-a {
-  color: #29B6F6; }
-
-#breadcrumbs {
-  background-color: white;
-  padding: 2px 0 2px 16px;
-  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 1px 0px rgba(0, 0, 0, 0.14), 0px 0px 3px 0px rgba(0, 0, 0, 0.12);
-  max-height: 40px; }
-  #breadcrumbs i {
-    font-size: 1.125rem; }
-
-#chevron {
-  font-size: 1.0rem; }
-
-.mdc-drawer-app-content {
-  width: 100vw; }
-
-.v-header.v-header--fixed {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0; }
-
-.drawer-frame-root {
-  display: flex;
-  height: 100vh; }
-
-.drawer-main-content {
-  overflow: auto;
-  height: 100vh; }
-
-.v-root--header-present .drawer-main-content {
-  height: calc(100vh - 64px); }
-
 #breadcrumbs {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 2; }
 
+.v-root.v-root--header-present #breadcrumbs {
+  top: 64px; }
+
 @media (max-width: 599px) {
-  .v-root--header-present .drawer-main-content {
-    height: calc(100vh - 56px); } }
+  .v-root.v-root--header-present #breadcrumbs {
+    top: 56px; } }
 
 .mdc-fab {
   background-color: #AEEA00;
