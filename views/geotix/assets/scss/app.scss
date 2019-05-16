@@ -1,9 +1,10 @@
 @import "mdc-theme";
 
-@import "components/grid";
-@import "components/drawer";
-@import "components/card";
 @import "components/button";
+@import "components/card";
+@import "components/chip";
+@import "components/drawer";
+@import "components/grid";
 @import "components/list";
 @import "components/stepper";
 
@@ -12,80 +13,41 @@
 @import "@material/chips/mdc-chips";
 @import "@material/dialog/mdc-dialog";
 @import "@material/fab/mdc-fab";
+@import "@material/form-field/mdc-form-field";
 @import "@material/icon-toggle/mdc-icon-toggle";
-
-@import "@material/top-app-bar/mdc-top-app-bar";
-@import "@material/theme/mixins";
+@import "@material/linear-progress/mdc-linear-progress";
 @import "@material/menu-surface/mdc-menu-surface";
 @import "@material/menu/mdc-menu";
-@import "@material/form-field/mdc-form-field";
+@import "@material/notched-outline/mdc-notched-outline";
 @import "@material/radio/mdc-radio";
 @import "@material/select/mdc-select";
 @import "@material/slider/mdc-slider";
 @import "@material/snackbar/mdc-snackbar";
 @import "@material/switch/mdc-switch";
 @import "@material/tab-bar/mdc-tab-bar";
-@import "@material/tab-scroller/mdc-tab-scroller";
 @import "@material/tab-indicator/mdc-tab-indicator";
+@import "@material/tab-scroller/mdc-tab-scroller";
 @import "@material/tab/mdc-tab";
 @import "@material/textfield/mdc-text-field";
-@import "@material/notched-outline/mdc-notched-outline";
+@import "@material/theme/mixins";
 @import "@material/typography/mdc-typography";
-@import "@material/linear-progress/mdc-linear-progress";
+
 @import "v-theme";
 @import "breadcrumbs";
-
-@import "components/chip";
+@import "behaviors/fixed-nav-elements";
 
 
 .mdc-fab {
-    background-color: $palette-accent14;
-    color: $palette-neutral10;
+  background-color: $palette-accent14;
+  color: $palette-neutral10;
 }
 
-:not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::before, :not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::after {
-    background-color: $palette-accent4;
+:not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::before,
+:not(.mdc-list--non-interactive) > :not(.mdc-list-item--disabled).mdc-list-item--activated::after {
+  background-color: $palette-accent4;
 }
 
 .mdc-top-app-bar {
-    background-color: $palette-primary10;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-    width: 100%;
-    z-index: 4;
-}
-
-.drawer-top-app-bar {
-  position: absolute;
-}
-
-.drawer-frame-root {
-  display: flex;
-  height: 100vh;
-}
-
-.drawer-main-content {
-  overflow: auto;
-  height: calc(100vh - #{$mdc-top-app-bar-row-height} - #{$breadcrumbs-height});
-  margin-top: $mdc-top-app-bar-row-height + $breadcrumbs-height;
-}
-
-#breadcrumbs {
-  position: fixed;
-  width: 100%;
-  top: $mdc-top-app-bar-row-height;
-  z-index: 1;
-}
-
-@media (max-width: $mdc-top-app-bar-mobile-breakpoint) {
-  #breadcrumbs {
-    top: $mdc-top-app-bar-mobile-row-height;
-  }
-}
-
-.mdc-drawer-app-content {
-  width: 100vw;
+  background-color: $palette-primary10;
+  color: white;
 }
