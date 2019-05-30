@@ -17,7 +17,7 @@
   @include lg {
     --v-drawer-active:yes;
     display: flex;
-    width: 256px;
+    width: $mdc-drawer-width;
   }
 }
 
@@ -25,7 +25,25 @@
   margin-left: 0;
   margin-right: 0;
   @include lg {
-    margin-left: 256px;
+    margin-left: $mdc-drawer-width;
     margin-right: 0;
    }
+  > .mdc-top-app-bar.mdc-top-app-bar--fixed {
+    @include lg {
+      width: calc(100% - #{$mdc-drawer-width});
+    }
+  }
+}
+
+#admin-side-nav {
+  .mdc-drawer__header {
+    min-height: 79px;
+    background-image: url("../images/geotix_logo_blue_green.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    h3 {
+      display: none;
+    }
+  }
 }
