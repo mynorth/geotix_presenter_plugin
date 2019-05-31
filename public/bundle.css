@@ -919,6 +919,12 @@ svg.mdc-button__icon {
   #admin-side-nav .mdc-drawer__header h3 {
     display: none; }
 
+.mdc-drawer__content > .mdc-list h6.mdc-list-group__subheader {
+  margin-bottom: 8px; }
+
+.mdc-drawer__content > .mdc-list .mdc-list-item {
+  margin: 0px 8px; }
+
 :root {
   --mdc-layout-grid-margin-desktop: 24px;
   --mdc-layout-grid-gutter-desktop: 24px;
