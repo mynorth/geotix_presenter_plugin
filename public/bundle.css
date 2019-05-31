@@ -920,7 +920,8 @@ svg.mdc-button__icon {
     display: none; }
 
 .mdc-drawer__content > .mdc-list h6.mdc-list-group__subheader {
-  margin-bottom: 8px; }
+  margin-bottom: 8px;
+  color: #1A237E; }
 
 .mdc-drawer__content > .mdc-list .mdc-list-item {
   margin: 0px 8px; }
