@@ -1,9 +1,9 @@
 @import "palette";
 // --------------------- MDC THEME ---------------------*/
-$mdc-theme-primary: $palette-primary6;
-$mdc-theme-secondary: $palette-accent8;
-$mdc-theme-background: $palette-neutral1;
-$mdc-theme-accent: $palette-accent14;
+$mdc-theme-primary: palette(primary6);
+$mdc-theme-secondary: palette(accent8);
+$mdc-theme-background: palette(neutral1);
+$mdc-theme-accent: palette(accent14);
 
 $v-header-background: #263138;
 $v-header-color: #839098;
@@ -61,10 +61,10 @@ $v-header-color: #839098;
 
 
 // --------------------- DRAWER ---------------------*/
-$mdc-drawer-title-ink-color: $palette-neutral10; // mdc-theme-prop-value(on-surface) !default;
-$mdc-drawer-subtitle-ink-color: $palette-neutral10;
-$mdc-drawer-item-inactive-ink-color: $palette-neutral9;
-$mdc-drawer-item-activated-ink-color: $palette-accent8;
+$mdc-drawer-title-ink-color: palette(neutral10); // mdc-theme-prop-value(on-surface) !default;
+$mdc-drawer-subtitle-ink-color: palette(neutral10);
+$mdc-drawer-item-inactive-ink-color: palette(neutral9);
+$mdc-drawer-item-activated-ink-color: palette(accent8);
 //$mdc-drawer-divider-color: mdc-theme-prop-value(on-surface) !default;
 //$mdc-drawer-surface-fill-color: mdc-theme-prop-value(surface) !default;
 //$mdc-drawer-title-ink-opacity: mdc-theme-text-emphasis(high) !default;
