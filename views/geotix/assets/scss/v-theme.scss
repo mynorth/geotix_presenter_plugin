@@ -18,18 +18,18 @@ $mdc-button-font-size:    .875rem;   // 14sp
 $mdc-overline-font-size:  .75rem;    // 12sp
 
 .mdc-typography--headline6 {
-  color: $palette-neutral9;
+  color: palette(neutral9);
 }
 
 .mdc-typography--subtitle1 {
-  color: $palette-neutral5;
+  color: palette(neutral5);
 }
 
-$v-theme-error-message: $palette-red9;
+$v-theme-error-message: palette(red9);
 
-$v-header-background: $palette-primary10;
-$v-title-background: $palette-primary2;
-$v-title-color: $palette-primary10;
+$v-header-background: palette(primary10);
+$v-title-background: palette(primary2);
+$v-title-color: palette(primary10);
 
 h1.v-page-title {
   background-color: $v-title-background;
@@ -70,9 +70,9 @@ h1.v-page-title {
 }
 
 body {
-  background-color: $palette-neutral1;
+  background-color: palette(neutral1);
 }
 
 a {
-  color: $palette-accent5;
+  color: palette(accent5);
 }
