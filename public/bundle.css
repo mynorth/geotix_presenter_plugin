@@ -2077,6 +2077,9 @@ a.mdc-list-item {
 .mdc-list-item__meta {
   display: block; }
 
+.mdc-list--dense .mdc-list-item {
+  height: 30px; }
+
 .mdl-stepper {
   background-color: unset; }
 
