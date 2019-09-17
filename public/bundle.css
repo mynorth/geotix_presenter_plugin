@@ -3133,7 +3133,7 @@ a.mdc-list-item {
 
 .mdc-dialog {
   display: none;
-  z-index: 7; }
+  z-index: 14; }
   .mdc-dialog .mdc-dialog__surface {
     background-color: #fff;
     /* @alternate */
@@ -7395,7 +7395,7 @@ a {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 2; }
+  z-index: 10; }
 
 .v-root.v-root--header-present #breadcrumbs {
   top: 64px; }
@@ -7414,4 +7414,5 @@ a {
 
 .mdc-top-app-bar {
   background-color: #1A237E;
-  color: white; }
+  color: white;
+  z-index: 10; }
