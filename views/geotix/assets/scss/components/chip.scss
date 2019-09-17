@@ -13,7 +13,7 @@
 
 .mdc-chip-set--choice {
   .mdc-chip {
-    @include mdc-chip-selected-ink-color-without-ripple_(text-primary-on-dark, $query: mdc-feature-all());
+    @include mdc-chip-selected-ink-color(text-primary-on-dark);
   }
 
   .mdc-chip--selected {
