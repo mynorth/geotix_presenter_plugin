@@ -4,7 +4,7 @@ module Voom
       module Geotix
         module DSLHelpers
 
-          THEME_RGB_COLORS = {geotix: {
+          THEMES = {geotix: {
               colors: {
                   primary10: '#1A237E',
                   primary9: '#283593',
@@ -72,8 +72,9 @@ module Voom
                   green1: '#E8F5E9'}}}.freeze
 
           def rgb_color(color_code, theme_code: :geotix)
-            colorset = THEME_RGB_COLORS.fetch(theme_code) { raise(Errors::ParameterValidation, "Failed to locate theme for: #{theme_code}") }
-            colorset.fetch(color_code) { raise(Errors::ParameterValidation, "Failed to locate color for: #{color_code}") }
+            theme = THEMES.fetch(theme_code) { raise(Errors::ParameterValidation, "Failed to locate theme for: #{theme_code}") }
+            colors = theme.fetch(:colors) { raise(Errors::ParameterValidation, "No RGB colors defined for: #{theme_code}") }
+            colors.fetch(color_code) { raise(Errors::ParameterValidation, "Failed to locate color for: #{color_code}") }
           end
         end
 
