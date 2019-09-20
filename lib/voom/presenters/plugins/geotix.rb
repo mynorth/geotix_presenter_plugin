@@ -69,7 +69,7 @@ module Voom
                   green4: '#81C784',
                   green3: '#A5D6A7',
                   green2: '#C8E6C9',
-                  green1: '#E8F5E9'}}.freeze
+                  green1: '#E8F5E9'}}}.freeze
 
           def rgb_color(color_code, theme_code: :geotix)
             colorset = THEME_RGB_COLORS.fetch(theme_code) { raise(Errors::ParameterValidation, "Failed to locate theme for: #{theme_code}") }
