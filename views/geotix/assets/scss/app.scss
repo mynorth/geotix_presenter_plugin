@@ -49,4 +49,9 @@
 .mdc-top-app-bar {
   background-color: palette(primary10);
   color: white;
+  z-index: 10;
+}
+
+#top-nav-logout-menu {
+  z-index: 15;
 }
