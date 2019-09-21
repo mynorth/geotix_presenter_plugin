@@ -4,6 +4,7 @@ module Voom
       module Geotix
         module DSLHelpers
 
+          # If you modify a color here, you need to modify the corresponding color in palette.scss
           THEMES = {geotix: {
               colors: {
                   primary10: '#1A237E',
