@@ -8,6 +8,7 @@
 .mdc-chip-set--filter {
   .mdc-chip--selected {
     @extend %selected-shared;
+    font-weight: bold;
   }
 }
 

@@ -1079,6 +1079,9 @@ svg.mdc-button__icon {
   .mdc-chip-set--filter .mdc-chip--selected:hover, .mdc-chip-set--choice .mdc-chip--selected:hover {
     color: #0288D1; }
 
+.mdc-chip-set--filter .mdc-chip--selected {
+  font-weight: bold; }
+
 .mdc-chip-set--choice .mdc-chip.mdc-chip--selected::before {
   opacity: 0.16; }
 
