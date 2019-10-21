@@ -825,6 +825,10 @@ svg.mdc-button__icon {
 .v-card-content .mdc-menu-anchor > button {
   z-index: 7; }
 
+.v-card-selected {
+  outline: none;
+  border: 3px solid #039BE5; }
+
 .mdc-chip {
   --mdc-ripple-fg-size: 0;
   --mdc-ripple-left: 0;
