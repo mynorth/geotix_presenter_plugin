@@ -83,4 +83,8 @@ $palette-colors: (
   .v-color__#{$name} {
     color: $color !important;
   }
+
+  .v-background-color__#{$name} {
+    background-color: $color !important;
+  }
 }
