@@ -1021,6 +1021,12 @@ svg.mdc-button__icon {
   outline: none;
   border: 3px solid #039BE5; }
 
+.v-card-border-left {
+  border-left: 5px solid #0277BD; }
+
+.v-card-border-top {
+  border-top: 5px solid #0277BD; }
+
 .mdc-chip {
   --mdc-ripple-fg-size: 0;
   --mdc-ripple-left: 0;
