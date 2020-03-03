@@ -1,19 +1,19 @@
 @import "@material/top-app-bar/mdc-top-app-bar";
 
-#breadcrumbs {
+#subheader {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 10; // Above FABs, below dialog scrim.
 }
 
-.v-root.v-root--header-present #breadcrumbs {
+.v-root.v-root--header-present #subheader {
   top: $mdc-top-app-bar-row-height;
 }
 
 
 @media (max-width: $mdc-top-app-bar-mobile-breakpoint) {
-  .v-root.v-root--header-present #breadcrumbs {
+  .v-root.v-root--header-present #subheader {
     top: $mdc-top-app-bar-mobile-row-height;
   }
 }
