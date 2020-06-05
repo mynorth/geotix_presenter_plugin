@@ -382,6 +382,10 @@
 .v-background-color__green1 {
   background-color: #E8F5E9 !important; }
 
+.v-avatar {
+  color: white;
+  background-color: #90A4AE; }
+
 @keyframes mdc-ripple-fg-radius-in {
   from {
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
