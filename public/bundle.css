@@ -382,6 +382,10 @@
 .v-background-color__green1 {
   background-color: #E8F5E9 !important; }
 
+.v-avatar {
+  color: white;
+  background-color: #90A4AE; }
+
 @keyframes mdc-ripple-fg-radius-in {
   from {
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1020,6 +1024,12 @@ svg.mdc-button__icon {
 .v-card-selected {
   outline: none;
   border: 3px solid #039BE5; }
+
+.v-card-border-left {
+  border-left: 5px solid #0277BD; }
+
+.v-card-border-top {
+  border-top: 5px solid #0277BD; }
 
 .mdc-chip {
   --mdc-ripple-fg-size: 0;
