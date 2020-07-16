@@ -1,7 +1,7 @@
 @import "palette";
 // --------------------- MDC THEME ---------------------*/
 $mdc-theme-primary: palette(primary6);
-$mdc-theme-secondary: palette(accent8);
+$mdc-theme-secondary: palette(primary5);
 $mdc-theme-background: palette(neutral1);
 $mdc-theme-accent: palette(accent14);
 
@@ -63,8 +63,8 @@ $v-header-color: #839098;
 // --------------------- DRAWER ---------------------*/
 $mdc-drawer-title-ink-color: palette(neutral10); // mdc-theme-prop-value(on-surface) !default;
 $mdc-drawer-subtitle-ink-color: palette(neutral10);
-$mdc-drawer-item-inactive-ink-color: palette(neutral9);
-$mdc-drawer-item-activated-ink-color: palette(accent8);
+$mdc-drawer-item-inactive-ink-color: palette(neutral7);
+$mdc-drawer-item-activated-ink-color: palette(primary6);
 //$mdc-drawer-divider-color: mdc-theme-prop-value(on-surface) !default;
 //$mdc-drawer-surface-fill-color: mdc-theme-prop-value(surface) !default;
 //$mdc-drawer-title-ink-opacity: mdc-theme-text-emphasis(high) !default;
@@ -93,7 +93,7 @@ $mdc-drawer-width: 216px;
 //$mdc-checkbox-mark-color: mdc-theme-prop-value(on-primary) !default;
 //$mdc-checkbox-border-color: rgba(mdc-theme-prop-value(on-surface), .54) !default;
 //$mdc-checkbox-disabled-color: rgba(mdc-theme-prop-value(on-surface), .26) !default;
-//$mdc-checkbox-baseline-theme-color: secondary !default;
+$mdc-checkbox-baseline-theme-color: palette(accent7) !default;
 //
 //$mdc-checkbox-touch-area: 40px !default;
 //$mdc-checkbox-size: 18px !default;
@@ -234,7 +234,7 @@ $mdc-dialog-z-index: 14;
 //$mdc-radio-ui-pct: percentage($mdc-radio-ui-size / $mdc-radio-touch-area) !default;
 //$mdc-radio-transition-duration: 120ms !default;
 //$mdc-radio-ripple-opacity: .14 !default;
-//$mdc-radio-baseline-theme-color: secondary !default;
+$mdc-radio-baseline-theme-color: palette(accent7) !default;
 //$mdc-radio-unchecked-color: rgba(mdc-theme-prop-value(on-surface), .54) !default;
 //$mdc-radio-circle-color: rgba(mdc-theme-prop-value(on-surface), .26) !default;
 
@@ -336,7 +336,7 @@ $mdc-dialog-z-index: 14;
 //$mdc-switch-disabled-thumb-color: mdc-theme-prop-value(surface) !default;
 //$mdc-switch-disabled-track-color: mdc-theme-prop-value(on-surface) !default;
 //
-//$mdc-switch-baseline-theme-color: secondary !default;
+$mdc-switch-baseline-theme-color: palette(accent7) !default;
 
 
 // --------------------- TAB  ---------------------*/
