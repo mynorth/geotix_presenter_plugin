@@ -5,42 +5,46 @@ module Voom
         module DSLHelpers
 
           # If you modify a color here, you need to modify the corresponding color in palette.scss
-          THEMES = {geotix: {
+          THEMES = {
+            geotix: {
               colors: {
-                  primary10: '#1A237E',
-                  primary9: '#283593',
-                  primary8: '#303F9F',
-                  primary7: '#3949AB',
-                  primary6: '#3F51B5',
-                  primary5: '#5C6BC0',
-                  primary4: '#7986CB',
-                  primary3: '#9FA8DA',
-                  primary2: '#C5CAE9',
-                  primary1: '#E8EAF6',
-                  neutral10: '#263238',
-                  neutral9: '#37474F',
-                  neutral8: '#455A64',
-                  neutral7: '#546E7A',
-                  neutral6: '#607D8B',
-                  neutral5: '#78909C',
-                  neutral4: '#90A4AE',
-                  neutral3: '#B0BEC5',
-                  neutral2: '#ECEFF1',
-                  neutral1: '#F2F5F7',
-                  accent10: '#01579B',
-                  accent9: '#0277BD',
-                  accent8: '#0288D1',
-                  accent7: '#039BE5',
-                  accent6: '#03A9F4',
-                  accent5: '#29B6F6',
-                  accent4: '#47C3F7',
-                  accent3: '#81D4FA',
-                  accent2: '#B3E5FC',
-                  accent1: '#E1F5FE',
-                  accent14: '#AEEA00',
-                  accent13: '#C6FF00',
-                  accent12: '#EEFF41',
-                  accent11: '#F4FF81',
+                  primary10: '#49040E',
+                  primary9: '#790618',
+                  primary8: '#AA0921',
+                  primary7: '#CA0826',
+                  primary6: '#DC1F3C',
+                  primary5: '#F53855',
+                  primary4: '#F6556E',
+                  primary3: '#F98697',
+                  primary2: '#FBB6C1',
+                  primary1: '#FEE7EA',
+
+                  neutral10: '#090E11',
+                  neutral9: '#1B2932',
+                  neutral8: '#253944',
+                  neutral7: '#324D5C',
+                  neutral6: '#517C95',
+                  neutral5: '#6A96AE',
+                  neutral4: '#8BADC0',
+                  neutral3: '#ACC5D2',
+                  neutral2: '#CDDCE4',
+                  neutral1: '#EBF0F3',
+
+                  accent14: '#00B587',
+                  accent13: '#00E676',
+                  accent12: '#69F0AE',
+                  accent11: '#B9F6CA',
+                  accent10: '#006064',
+                  accent9: '#00838F',
+                  accent8: '#0097A7',
+                  accent7: '#00ACC1',
+                  accent6: '#00BCD4',
+                  accent5: '#26C6DA',
+                  accent4: '#4DD0E1',
+                  accent3: '#80DEEA',
+                  accent2: '#9EF9E8',
+                  accent1: '#E0F7FA',
+
                   red10: '#B71C1C',
                   red9: '#C62828',
                   red8: '#D32F2F',
@@ -51,6 +55,7 @@ module Voom
                   red3: '#EF9A9A',
                   red2: '#FFCDD2',
                   red1: '#FFEBEE',
+
                   yellow10: '#F57F17',
                   yellow9: '#F9A825',
                   yellow8: '#FBC02D',
@@ -61,6 +66,7 @@ module Voom
                   yellow3: '#FFF59D',
                   yellow2: '#FFF9C4',
                   yellow1: '#FFFDE7',
+
                   green10: '#1B5E20',
                   green9: '#2E7D32',
                   green8: '#388E3C',
@@ -70,7 +76,10 @@ module Voom
                   green4: '#81C784',
                   green3: '#A5D6A7',
                   green2: '#C8E6C9',
-                  green1: '#E8F5E9'}}}.freeze
+                  green1: '#E8F5E9'
+              }.freeze
+            }.freeze
+          }.freeze
 
           def rgb_color(color_code, theme_code: :geotix)
             theme = THEMES.fetch(theme_code) { raise(Errors::ParameterValidation, "Failed to locate theme for: #{theme_code}") }

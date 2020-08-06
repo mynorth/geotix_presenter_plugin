@@ -1,8 +1,8 @@
 @import "@material/chips/mdc-chips";
 
 %selected-shared {
-  @include mdc-chip-fill-color(palette(accent1));
-  @include mdc-chip-ink-color(palette(accent8));
+  @include mdc-chip-fill-color(palette(primary1));
+  @include mdc-chip-ink-color(palette(primary6));
 }
 
 .mdc-chip-set--filter {
