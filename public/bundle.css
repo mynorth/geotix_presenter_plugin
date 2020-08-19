@@ -386,6 +386,10 @@
   color: white;
   background-color: #8BADC0; }
 
+.mdl-badge[data-badge]:after {
+  background: #DC1F3C;
+  color: white; }
+
 @keyframes mdc-ripple-fg-radius-in {
   from {
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
